@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <label for="Nombre">
+                <span>¿cual es tu nombre?</span>
+                <input type="name" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+            </label>
+
+            <label for="telefono">
+                <span>¿cual es tu nombre?</span>
+                <input type="tel" id="telefono" name="Telefono" placeholder="Tu telefono" autocomplete="tel" required>
+            </label>
+            <label for="direccion">
+                <span> tu direccion </span>
+                <input type="address" id="direccion" name="direccion" placeholder="Tu direccion" autocomplete="address"
+                    required>
+            </label>
+
+            <label for="Correo">
+                <span>¿cual es tu correo?</span>
+                <input type="email" id="correo" name="Correo" placeholder="Tu correo" autocomplete="email" required>
+            </label>
+
+            <label for="pais">
+                <span> tu pais </span>
+                <input type="country" id="pais" name="pais" placeholder="Tu pais" autocomplete="country" required>
+            </label>
+
+            <label for="ciudad">
+                <span> tu ciudad </span>
+                <input type="city" id="ciudad" name="ciudad" placeholder="Tu ciudad" autocomplete="city" required>
+            </label>
+
+            <label for="Calendario">
+                <span> Calendario </span>
+                <input type="datetime-local" id="calendario" name="calendario" autocomplete="datetime-local" required>
+            </label>
+
+            <input type="submit" />
+        </form>
+
+       
+
+
+
+       
+
+        <span>Cual es tu ciudad</span>
+        <input list="ciudades">
+        <datalist id="ciudades">
+            <option value="Ibague"></option>
+            <option value="Chaparral"></option>
+            <option value="Guamo"></option>
+            <option value="Mariquita"></option>
+            <option value="Coello"></option>
+        </datalist>
+
+        <span>Estas estudiando</span>
+        <select name="Estudio" id="">
+            <option value="si">si</option>
+            <option value="no">no</option>
+        </select>
+
+    </main>
+</body>
+
+</html>
